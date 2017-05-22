@@ -4,7 +4,7 @@ public class Application {
 	
 	public static void main(String[] args) {
 		
-		new ReadFileLogFacade().frequenceUrlAndCode();
+		new ReadFileLogFacade().threeMostFrequentUrlAndCode();
 
 	}
 

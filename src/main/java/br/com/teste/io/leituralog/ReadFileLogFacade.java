@@ -12,7 +12,8 @@ public class ReadFileLogFacade {
 	
 	private  Logger log = Logger.getLogger(ReadFileLogFacade.class);
 	
-	public void frequenceUrlAndCode(){
+	
+	public void  threeMostFrequentUrlAndCode(){
 	      ReadFileLog arq =new ReadFileLog();
           LinkedHashMap<String, Map<String, Long>> out;
 		
